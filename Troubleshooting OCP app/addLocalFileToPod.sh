@@ -4,4 +4,5 @@
 #
 #################################################
 
-oc cp ./my-local-file.tar infodb-1-svjts:/home
+oc cp ./my-local-file.tar \
+$(oc get pods --selector "app=infodb" --template '{{range .items}}{{.metadata.name}}{{end}}'):/home
