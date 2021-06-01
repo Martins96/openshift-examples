@@ -1,8 +1,8 @@
 #################################################
 #
 # This script retrive the logs from running pod
-# with label "name=exampledb"
+# where the name is exampledb
 #
 #################################################
 
-oc logs --selector 'name=exampledb'
+oc logs dc/exampledb'
