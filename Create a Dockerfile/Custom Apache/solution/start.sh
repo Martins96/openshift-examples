@@ -5,4 +5,4 @@
 #
 #################################################
 
-docker run -d -p 8888:8080 --name custom-httpd --rm apache-httpd-no-root
+docker run -d -p 8888:8080 --name custom-httpd apache-httpd-no-root

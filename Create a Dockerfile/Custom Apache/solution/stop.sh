@@ -1,8 +1,6 @@
 #################################################
 #
-# This script sync the remote container folder to
-# local folder
-# This is a Database backup on local
+# This script stop and remove the running container
 #
 #################################################
 
