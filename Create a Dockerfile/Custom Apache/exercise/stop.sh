@@ -6,6 +6,3 @@
 
 #
 #################################################
-
-docker stop custom-httpd
-docker rm custom-httpd

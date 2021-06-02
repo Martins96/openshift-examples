@@ -5,4 +5,4 @@
 #
 #################################################
 
-oc logs dc/exampledb'
+oc logs dc/exampledb
